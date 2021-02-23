@@ -23,7 +23,7 @@ namespace TwitchBot
             while (true) {
                 if (bot.channel != null) {
                     bot.Info();
-                    Thread.Sleep(900000);
+                    Thread.Sleep(1800000);
                 }
                 Thread.Sleep(500);
             }
